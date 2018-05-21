@@ -9,15 +9,13 @@ typedef struct SNode{
     struct SNode* next;
 }SNode,*LinkStack;
 
-int InitStack(LinkStack *top){
+void InitStack(LinkStack *top){
    *top=(LinkStack)malloc(sizeof(SNode));
    if(*top==NULL){
        printf("初始化链栈错误! \n");
-       return 0;
    }
    else{
        (*top)->next=NULL;
-       return 1;
    }
 }//初始化
 void Push(LinkStack top,int element){
@@ -44,7 +42,7 @@ void Pop(LinkStack top,int *element){
         free(p);
     }
 }//出栈
-void TravelStack(LinkStack top){
+/*void TravelStack(LinkStack top){
     SNode *p;
     if(!top->next){
         printf("是空栈，无法进行操作 \n");
@@ -58,17 +56,17 @@ void TravelStack(LinkStack top){
         }
     }
     printf("\n");
-}//输出
+}//输出*/
 void GetTop(LinkStack top ,int *element){
     SNode *p;
     if(!top->next){
         printf("空栈，无法操作 \n");
     }
     else{
-        p=p->next;
+        p=top->next;
         *element=p->data;
     }
-}
+}//取栈顶
 void main()
 {
     LinkStack top;
@@ -77,7 +75,7 @@ void main()
     while (select){
         printf("***********\n");
         printf("链栈的功能如下\n");
-        printf("[1]入栈  [2]出栈  [3]输出  [4]初始化  [5]取栈顶元素\n");
+        printf("[1]入栈  [2]出栈  [3]初始化  [4]取栈顶元素\n");
         printf("***********\n");
         printf("请选择需要的功能:");
         scanf("%d",&select);
@@ -90,15 +88,16 @@ void main()
 
             case 2:
                 Pop(top,&item);
+                printf("输出为： \n",&item);
                 break;
 
-            case 3:
+            /*:
                 TravelStack(top);
-                break;
-            case 4:
+                break;*/
+            case 3:
                 InitStack(&top);
                 break;
-            case 5:
+            case 4:
                 GetTop(top,&item);
                 printf("栈顶的数据为：%d\n",item);
                 break;
