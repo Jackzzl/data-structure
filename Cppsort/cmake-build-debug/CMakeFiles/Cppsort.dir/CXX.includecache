@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/zzl/clion/workplace/Cppsort/main.cpp
+stdio.h
+-
+string.h
+-
+algorithm
+-
+iostream
+-
+
