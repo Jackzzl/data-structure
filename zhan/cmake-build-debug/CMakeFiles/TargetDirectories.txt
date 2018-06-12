@@ -1,3 +1,0 @@
-/cygdrive/e/zzl/clion/workplace/zhan/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/e/zzl/clion/workplace/zhan/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/e/zzl/clion/workplace/zhan/cmake-build-debug/CMakeFiles/zhan.dir

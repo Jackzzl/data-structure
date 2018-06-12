@@ -1,4 +1,4 @@
-C:\Users\DELL\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/e/zzl/clion/please
+C:\Users\DELL\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/e/zzl/clion/workplace/lianbiao
 -- The C compiler identification is GNU 6.4.0
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
@@ -8,4 +8,4 @@ C:\Users\DELL\.CLion2018.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/e/zzl/clion/please/cmake-build-debug
+-- Build files have been written to: /cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug

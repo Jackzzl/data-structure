@@ -54,45 +54,45 @@ RM = /cygdrive/c/Users/DELL/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/e/zzl/clion/please
+CMAKE_SOURCE_DIR = /cygdrive/e/zzl/clion/workplace/lianbiao
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/e/zzl/clion/please/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/please.dir
+# Target rules for target CMakeFiles/lianbiao.dir
 
 # All Build rule for target.
-CMakeFiles/please.dir/all:
-	$(MAKE) -f CMakeFiles/please.dir/build.make CMakeFiles/please.dir/depend
-	$(MAKE) -f CMakeFiles/please.dir/build.make CMakeFiles/please.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/zzl/clion/please/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target please"
-.PHONY : CMakeFiles/please.dir/all
+CMakeFiles/lianbiao.dir/all:
+	$(MAKE) -f CMakeFiles/lianbiao.dir/build.make CMakeFiles/lianbiao.dir/depend
+	$(MAKE) -f CMakeFiles/lianbiao.dir/build.make CMakeFiles/lianbiao.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target lianbiao"
+.PHONY : CMakeFiles/lianbiao.dir/all
 
 # Include target in all.
-all: CMakeFiles/please.dir/all
+all: CMakeFiles/lianbiao.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/please.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/zzl/clion/please/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/please.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/zzl/clion/please/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/please.dir/rule
+CMakeFiles/lianbiao.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lianbiao.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lianbiao.dir/rule
 
 # Convenience name for target.
-please: CMakeFiles/please.dir/rule
+lianbiao: CMakeFiles/lianbiao.dir/rule
 
-.PHONY : please
-
-# clean rule for target.
-CMakeFiles/please.dir/clean:
-	$(MAKE) -f CMakeFiles/please.dir/build.make CMakeFiles/please.dir/clean
-.PHONY : CMakeFiles/please.dir/clean
+.PHONY : lianbiao
 
 # clean rule for target.
-clean: CMakeFiles/please.dir/clean
+CMakeFiles/lianbiao.dir/clean:
+	$(MAKE) -f CMakeFiles/lianbiao.dir/build.make CMakeFiles/lianbiao.dir/clean
+.PHONY : CMakeFiles/lianbiao.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/lianbiao.dir/clean
 
 .PHONY : clean
 

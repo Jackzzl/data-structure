@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/zhan.dir/main.c.o  -o zhan.exe -Wl,--out-implib,libzhan.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

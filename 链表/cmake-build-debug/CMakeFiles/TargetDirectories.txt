@@ -1,3 +1,3 @@
-/cygdrive/e/zzl/clion/please/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/e/zzl/clion/please/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/e/zzl/clion/please/cmake-build-debug/CMakeFiles/please.dir
+/cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug/CMakeFiles/lianbiao.dir

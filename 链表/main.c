@@ -95,8 +95,8 @@ int GetElem(LinkList h,int pos,int *item){
 
 void TraverseList(LinkList h){
     PNode p=h->next;
-    while(p){
-        printf("%d\t,",p->data);
+    while(p!=NULL){
+       printf("%d\t,",p->data);
         p=p->next;
     }
     printf("\n");

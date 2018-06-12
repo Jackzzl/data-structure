@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/DELL/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/e/zzl/clion/please
+CMAKE_SOURCE_DIR = /cygdrive/e/zzl/clion/workplace/lianbiao
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/e/zzl/clion/please/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/zzl/clion/please/cmake-build-debug/CMakeFiles /cygdrive/e/zzl/clion/please/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug/CMakeFiles /cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/zzl/clion/please/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/zzl/clion/workplace/lianbiao/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named please
+# Target rules for targets named lianbiao
 
 # Build rule for target.
-please: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 please
-.PHONY : please
+lianbiao: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lianbiao
+.PHONY : lianbiao
 
 # fast build rule for target.
-please/fast:
-	$(MAKE) -f CMakeFiles/please.dir/build.make CMakeFiles/please.dir/build
-.PHONY : please/fast
+lianbiao/fast:
+	$(MAKE) -f CMakeFiles/lianbiao.dir/build.make CMakeFiles/lianbiao.dir/build
+.PHONY : lianbiao/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/please.dir/build.make CMakeFiles/please.dir/main.c.o
+	$(MAKE) -f CMakeFiles/lianbiao.dir/build.make CMakeFiles/lianbiao.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/please.dir/build.make CMakeFiles/please.dir/main.c.i
+	$(MAKE) -f CMakeFiles/lianbiao.dir/build.make CMakeFiles/lianbiao.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/please.dir/build.make CMakeFiles/please.dir/main.c.s
+	$(MAKE) -f CMakeFiles/lianbiao.dir/build.make CMakeFiles/lianbiao.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... please"
+	@echo "... lianbiao"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
